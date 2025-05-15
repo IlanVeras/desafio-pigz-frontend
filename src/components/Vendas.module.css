@@ -1,0 +1,19 @@
+.container{
+    background: linear-gradient(#FA641E, #FF881F);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerText{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    width: 60%;
+}
+
+.imagemVendas{
+    width: 153px;
+    position: relative;
+    left: 50px;
+}

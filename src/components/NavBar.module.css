@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    padding: 16px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+
+.btn{
+    border: none;
+    font-size: 14px;
+    padding: 6px 24px;
+    color: white;
+    background: linear-gradient(#FA641E, #FF881F);
+    border-radius: 32px;
+    box-shadow: 0 2px 6px #FA641E;
+}
