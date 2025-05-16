@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0px;
+}
+
+.lb{
+    font-size: 12px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.inp{
+    padding: 14px 16px;
+    border-radius: 16px;
+    font-size: 14px;
+    border: 1px solid #999999;
+}
+
+.inp::placeholder{
+    color: #CCCCCC;
+}
+
+.inp:focus{
+    outline: none;
+}
+
+.containerTel{
+    display: flex;
+
+    border-radius: 16px;
+    font-size: 14px;
+    border: 1px solid #999999;
+}
+
+.ddd{
+    background-color: #F0F0F0;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.inpTel{
+    flex: 1;
+    border-radius: 16px;
+    border: none;
+    margin-left: 20px;
+}
+
+.inpTel::placeholder{
+    color: #CCCCCC;
+}
+
+.inpTel{
+    outline: none;
+}

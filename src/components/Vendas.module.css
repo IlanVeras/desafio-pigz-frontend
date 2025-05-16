@@ -1,16 +1,17 @@
 .container{
     background: linear-gradient(#FA641E, #FF881F);
     display: flex;
-    align-items: center;
+    flex-direction: column;
     overflow: hidden;
     position: relative;
+    padding: 16px;
 }
 
-.containerText{
+.containerTitle{
     font-size: 40px;
     font-weight: bold;
     color: white;
-    width: 80%;
+    width: 70%;
 
 }
 
@@ -19,4 +20,9 @@
     position: absolute;
     left: 50%;
     top: -50px;
+}
+
+.containerText{
+    color: white;
+    margin: 20px 0px;
 }

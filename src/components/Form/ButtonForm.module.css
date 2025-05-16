@@ -1,0 +1,13 @@
+.container{
+   background-color: #FA641E;
+   color: white;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-size: 16px;
+   height: 40px;
+   padding: 24px;
+   border-radius: 16px;
+}
