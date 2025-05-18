@@ -1,11 +1,28 @@
 import React from 'react'
 import styles from './Form.module.css'
-import ContentDefault from './ContentDefault'
+import ContentDefault from './ContentDefault/ContentDefault'
+import ContentSecond from './ContentSecond/ContentSecond'
 
 export default function Form() {
+  const [currentForm,setCurrentForm] = React.useState(0)
+  React.useEffect(() => {
+    console.log(currentForm)
+  }, [currentForm])
+
+function renderForm(){
+  switch(currentForm){
+    case 0:
+      return <ContentDefault currentForm={currentForm} setCurrentForm={setCurrentForm}/>
+    case 1:
+      return <ContentSecond/>
+    default:
+      return null
+  }
+}
+
   return (
     <div className={styles.container}>
-      <ContentDefault/>
+      {renderForm()}
     </div>
   )
 }

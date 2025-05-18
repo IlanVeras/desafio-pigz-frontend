@@ -1,16 +1,17 @@
 import React from "react";
 import { useId } from "react";
 import styles from "./ContentDefault.module.css";
-import ButtonForm from "./ButtonForm";
-import InputForm from "./InputForm";
+import ButtonForm from "../ButtonForm";
+import InputForm from "../InputForm";
 
-export default function ContentDefault() {
+export default function ContentDefault({currentForm,setCurrentForm}) {
   const [nome, setNome] = React.useState("");
   const nomeId = useId()
   const [email, setEmail] = React.useState("");
   const emailId = useId()
   const [telefone,setTelefone] = React.useState("")
   const telefoneId = useId()
+
   return (
     <div>
       <h1 className={styles.title}>Quero vender no Pigz</h1>
@@ -43,7 +44,7 @@ export default function ContentDefault() {
       value={telefone}
       onChange={(e) => setTelefone(e.target.value)}
       />
-      <ButtonForm txt={"Continuar"} />
+      <ButtonForm txt={"Continuar"} funcBtn={() => setCurrentForm(1)}/>
     </div>
   );
 }

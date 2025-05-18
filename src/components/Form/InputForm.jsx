@@ -9,24 +9,25 @@ export default function InputForm({
   placeholder,
   id,
 }) {
-  return (
-    <div className={styles.container}>
-      <label htmlFor={id} className={styles.lb}>
-        {name}
-      </label>
-      {name != "Telefone" ? (
-        <input
-          id={name}
-          type={type}
-          name={name}
-          value={value}
-          onChange={onChange}
-          placeholder={placeholder}
-          className={styles.inp}
-        />
-      ) : (
-        <div className={styles.containerTel}>
-          <div className={styles.ddd}>+55</div>
+  function renderInput() {
+    switch (name) {
+      case "Telefone":
+        return (
+          <div className={`${styles.containerTel} ${styles.inpGeneral}`}>
+            <div className={styles.ddd}>+55</div>
+            <input
+              id={name}
+              type={type}
+              name={name}
+              value={value}
+              onChange={onChange}
+              placeholder={placeholder}
+              className={`${styles.inpTel}`}
+            />
+          </div>
+        );
+      default:
+        return (
           <input
             id={name}
             type={type}
@@ -34,10 +35,17 @@ export default function InputForm({
             value={value}
             onChange={onChange}
             placeholder={placeholder}
-            className={styles.inpTel}
+            className={`${styles.inp} ${styles.inpGeneral}`}
           />
-        </div>
-      )}
+        );
+    }
+  }
+  return (
+    <div className={styles.container}>
+      <label htmlFor={id} className={styles.lb}>
+        {name}
+      </label>
+      {renderInput()}
     </div>
   );
 }

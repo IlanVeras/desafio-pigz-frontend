@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lb {
+  font-size: 12px;
+  color: #333333;
+  font-weight: 600;
+}
+
+.inpGeneral{
+    font-size: 14px;
+    border: 1px solid #999999;
+}
+
+.containerInp {
+  display: flex;
+  flex-direction: column;
+}
+
+.minorInp {
+  width: 114px;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+
+.greaterInp{
+    padding: 16px;
+    border-radius: 16px;
+    flex: 1;
+}
+
+.inputCidade:focus{
+    outline: none;
+}
