@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.containerServ{
+    background-color: #FAFAFA;
+    border-radius: 64px;
+    width: 270px;
+    height: 243px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 24px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.definition{
+    font-size: 16px;
+    text-align: center;
+}
