@@ -5,7 +5,7 @@ import ContentSecond from './ContentSecond/ContentSecond'
 import ContentThird from './ContentThird/ContentThird'
 
 export default function Form() {
-  const [currentForm,setCurrentForm] = React.useState(2)
+  const [currentForm,setCurrentForm] = React.useState(0)
   React.useEffect(() => {
     console.log(currentForm)
   }, [currentForm])

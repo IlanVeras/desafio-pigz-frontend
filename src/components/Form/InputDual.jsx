@@ -42,8 +42,9 @@ export default function InputDual({ campos, id0, name0, id1, name1 }) {
                 {name0}
               </label>
               <select className={`${styles.minorInp} ${styles.inpGeneral}`}>
+                <option value="" selected disabled>UF</option>
                 {estados.map((estado) => (
-                  <option value={estado}>{estado}</option>
+                  <option value={estado} key={estado}>{estado}</option>
                 ))}
               </select>
             </div>
