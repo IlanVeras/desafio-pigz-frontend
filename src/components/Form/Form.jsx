@@ -2,9 +2,10 @@ import React from 'react'
 import styles from './Form.module.css'
 import ContentDefault from './ContentDefault/ContentDefault'
 import ContentSecond from './ContentSecond/ContentSecond'
+import ContentThird from './ContentThird/ContentThird'
 
 export default function Form() {
-  const [currentForm,setCurrentForm] = React.useState(0)
+  const [currentForm,setCurrentForm] = React.useState(2)
   React.useEffect(() => {
     console.log(currentForm)
   }, [currentForm])
@@ -14,7 +15,10 @@ function renderForm(){
     case 0:
       return <ContentDefault currentForm={currentForm} setCurrentForm={setCurrentForm}/>
     case 1:
-      return <ContentSecond/>
+      return <ContentSecond currentForm={currentForm} setCurrentForm={setCurrentForm}/>
+    
+    case 2:
+      return <ContentThird currentForm={currentForm} setCurrentForm={setCurrentForm}/>
     default:
       return null
   }
