@@ -15,4 +15,10 @@
     font-weight: bold;
     text-align: center;
     color: #333333;
+    margin: 20px;
+}
+
+.paragraph{
+    text-align: center;
+    margin: 20px 60px;
 }

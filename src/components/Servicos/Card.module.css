@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.mainContainer{
+    background-color: #FAFAFA;
+    border-radius: 64px;
+    padding: 40px;
+    width: 382px;
+}
+
+
+.title{
+    font-size: 24px;
+    color: #333333;
+    font-weight: bold;
+}
+
+
+.subTitle{
+    font-size: 16px;
+    color: #666666;
+}
+
+.list{
+    margin: 20px 0px;
+}
+
+.infoPay{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 14px 24px;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    width: fit-content;
+    margin: 20px 0px;
+}
+
+.btn{
+    background: linear-gradient(90deg,#FA641E, #FF881F);
+    color: white;
+    text-align: center;
+    border: none;
+    width: 100%;
+    padding: 16px 64px;
+    border-radius: 32px;
+    box-shadow: 0 5px 20px #FF881F;
+}
