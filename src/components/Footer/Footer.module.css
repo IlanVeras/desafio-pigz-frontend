@@ -1,0 +1,112 @@
+.container{
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+
+.destaque{
+    font-size: 16px;
+    color: #676767;
+    font-weight: 600;
+}
+
+.logo{
+    margin-top: 48px;
+}
+
+
+.needToKnow{
+    font-size: 11px;
+    color: #676767;
+    margin-bottom: 8px;
+}
+
+
+.baixarApp{
+
+    margin: 16px 0px;
+}
+
+
+.download{
+    display: flex;
+}
+
+.faleIconContainer{
+    display: flex;
+}
+
+
+.app{
+    margin-right: 10px;
+}
+
+
+.sobre{
+    margin: 64px 0px;
+}
+
+.sobreLink{
+    margin: 24px 0px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.fale{
+    font-size: 14px;
+}
+
+
+.faleParagraph{
+    margin: 24px 0px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.faleIcon{
+    margin-right: 15px;
+}
+
+
+.redes{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.redes .redesIcon:first-child{
+    margin-left: 0px;
+}
+
+.redesIcon{
+    margin: 0px 8px;
+}
+
+
+.division{
+    height: 1px;
+    width: 100%;
+    background-color: #9F9F9F;
+    margin: 16px 0px;
+}
+
+
+.lastList{
+    display: flex;
+    font-size: 12px;
+}
+
+.lastList > p:first-child{
+    margin-left: 0px;
+}
+
+.lastList > p{
+    margin: 0px 8px;
+}
+
+
+.copyRights{
+    font-size: 10px;
+    margin: 24px 0px;
+}

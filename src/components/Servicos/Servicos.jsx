@@ -7,6 +7,7 @@ import ServicoPrinter from "../../assets/servicos-printer.svg";
 import ServicoContainer from "./ServicoContainer";
 import LogoPigz from "../../assets/pigz-servico.svg?react";
 import Card from "./Card";
+import IconWhatsApp from "../../assets/icon-whatsapp.svg?react"
 
 export default function Servicos() {
   const servicosOferecidos = [
@@ -84,6 +85,15 @@ export default function Servicos() {
           infoPay="2,99% por transação"
           InfoBtn="Saiba mais"
         />
+      </div>
+
+      <div className={styles.contatoContainer}>
+        <p>Fale com a Pigz</p>
+        <div className={styles.containerPhone}>
+          <IconWhatsApp/>
+          <p className={styles.dddPhone}>95</p>
+          <p>3224-2603</p>
+        </div>
       </div>
     </div>
   );

@@ -4,6 +4,7 @@ import Square from '../../components/Square';
 import styles from '../Home/Home.module.css'
 import Vendas from '../../components/Vendas';
 import Servicos from '../../components/Servicos/Servicos';
+import Footer from '../../components/Footer/Footer';
 
 const itens = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 export default function Home() {
@@ -24,7 +25,7 @@ export default function Home() {
         </main>
 
         <footer>
-
+            <Footer/>
         </footer>
     </div>
   )

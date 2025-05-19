@@ -22,3 +22,24 @@
     text-align: center;
     margin: 20px 60px;
 }
+
+
+.contatoContainer{
+    display: flex;
+    font-size: 16px;
+    color: #333333;
+    justify-content: center;
+    margin: 40px 24px;
+}
+
+.containerPhone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+}
+
+
+.dddPhone{
+    font-size: 13px;
+}
