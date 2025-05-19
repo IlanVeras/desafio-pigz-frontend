@@ -1,8 +1,13 @@
-<h1>Desafio Front-end Pigz</h1>
-<p>Para rodar a aplicação faça</p>
-<div>
-<code>npm install<code>
-</div>
-<div>
-<code>npm run dev</code>
-</div>
+# Desafio Front-end Pigz
+
+Este projeto é um desafio front-end da Pigz.
+
+## 🚀 Como rodar o projeto
+
+Siga os passos abaixo para rodar o projeto localmente:
+
+1. Instale as dependências:
+
+
+npm install
+npm run dev
