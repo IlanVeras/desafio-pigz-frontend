@@ -9,5 +9,9 @@ Siga os passos abaixo para rodar o projeto localmente:
 1. Instale as dependências:
 
 
-npm install
-npm run dev
+<code>npm install</code>
+
+
+2. Rode a aplicação:
+
+<code>npm run dev</code>
